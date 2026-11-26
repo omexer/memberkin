@@ -4,7 +4,7 @@
  *
  * Override: yourtheme/memberkin/checkout/confirmation.php
  *
- * @version 1.2.0
+ * @version 1.0.0
  * @package Memberkin
  *
  * @var \Memberkin\Domain\Order        $order        Order.

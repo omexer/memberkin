@@ -3,7 +3,7 @@
  * Plugin Name:       Memberkin
  * Plugin URI:        https://github.com/omexer/memberkin
  * Description:       Membership levels, recurring payments with Stripe and PayPal, content restriction, member accounts and emails.
- * Version:           0.1.0
+ * Version:           1.0.0
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Author:            Omexer
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'MEMBERKIN_VERSION', '0.1.0' );
+define( 'MEMBERKIN_VERSION', '1.0.0' );
 define( 'MEMBERKIN_FILE', __FILE__ );
 define( 'MEMBERKIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MEMBERKIN_URL', plugin_dir_url( __FILE__ ) );

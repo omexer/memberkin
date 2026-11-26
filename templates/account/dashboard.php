@@ -4,7 +4,7 @@
  *
  * Override: yourtheme/memberkin/account/dashboard.php
  *
- * @version 1.1.0
+ * @version 1.0.0
  * @package Memberkin
  *
  * @var \WP_User                                           $user         User.

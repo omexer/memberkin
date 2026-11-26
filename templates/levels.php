@@ -4,7 +4,7 @@
  *
  * Override: yourtheme/memberkin/levels.php
  *
- * @version 1.1.0
+ * @version 1.0.0
  * @package Memberkin
  *
  * @var array  $cards       Each: level, price, benefits, highlight, button, is_current, url, change (1.1.0: null or

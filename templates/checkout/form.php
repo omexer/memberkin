@@ -4,7 +4,7 @@
  *
  * Override: yourtheme/memberkin/checkout/form.php
  *
- * @version 1.2.0
+ * @version 1.0.0
  * @package Memberkin
  *
  * @var \Memberkin\Domain\Level[]                          $levels          Levels being bought.

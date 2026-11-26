@@ -1,0 +1,16 @@
+# Files and folders left out of the release zip (see bin/build.sh).
+/.git
+/.gitignore
+/.distignore
+/.phpunit.result.cache
+/.phpcs-cache
+/bin
+/build
+/docs
+/tests
+/vendor
+/phpcs.xml.dist
+/phpunit.xml.dist
+/README.md
+.DS_Store
+Thumbs.db
