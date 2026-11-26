@@ -1,2 +1,0 @@
-# memberkin
-Ultimate Membership Plugin

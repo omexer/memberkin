@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/levels",
+	"title": "Membership levels",
+	"category": "memberkin",
+	"icon": "grid-view",
+	"description": "Pricing table of the levels members can join (all, a group, or chosen levels).",
+	"keywords": [
+		"pricing",
+		"plans",
+		"membership"
+	],
+	"attributes": {
+		"levels": {
+			"type": "array",
+			"items": {
+				"type": "integer"
+			},
+			"default": []
+		},
+		"group": {
+			"type": "integer",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

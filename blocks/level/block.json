@@ -1,0 +1,43 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/level",
+	"title": "Level button",
+	"category": "memberkin",
+	"icon": "button",
+	"description": "One level's name, price and a button to its checkout.",
+	"keywords": [
+		"buy",
+		"join",
+		"price",
+		"button"
+	],
+	"attributes": {
+		"level": {
+			"type": "integer",
+			"default": 0
+		},
+		"text": {
+			"type": "string",
+			"default": ""
+		},
+		"showName": {
+			"type": "boolean",
+			"default": true
+		},
+		"showPrice": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

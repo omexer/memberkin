@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/members-content",
+	"title": "Members content",
+	"category": "memberkin",
+	"icon": "visibility",
+	"description": "Shows its content only to chosen visitors: members (of some levels), non-members, logged-in or logged-out visitors.",
+	"keywords": [
+		"restrict",
+		"private",
+		"members only",
+		"paywall"
+	],
+	"attributes": {
+		"levels": {
+			"type": "array",
+			"items": {
+				"type": "integer"
+			},
+			"default": []
+		},
+		"showTo": {
+			"type": "string",
+			"enum": [
+				"members",
+				"non-members",
+				"logged-in",
+				"logged-out"
+			],
+			"default": "members"
+		},
+		"message": {
+			"type": "string",
+			"default": "default"
+		}
+	},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

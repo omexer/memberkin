@@ -1,0 +1,28 @@
+/* Memberkin admin styles. Uses core admin variables and classes wherever possible. */
+.memberkin-badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; line-height: 1.6; background: #f0f0f1; color: #1d2327; }
+.memberkin-badge--active, .memberkin-badge--paid { background: #d1e7dd; color: #0a3622; }
+.memberkin-badge--pending, .memberkin-badge--pending_approval, .memberkin-badge--past_due, .memberkin-badge--cancelling, .memberkin-badge--trialing { background: #fff3cd; color: #664d03; }
+.memberkin-badge--ended, .memberkin-badge--expired, .memberkin-badge--cancelled, .memberkin-badge--failed, .memberkin-badge--refunded, .memberkin-badge--suspended { background: #f8d7da; color: #58151c; }
+.memberkin-badge--paused { background: #cfe2ff; color: #052c65; }
+.memberkin-modules td:last-child { width: 80px; text-align: center; }
+.memberkin-price-fields .small-text { width: 7em; }
+.memberkin-inline-fields > * { margin-inline-end: 6px; vertical-align: middle; }
+.memberkin-form-section { margin-top: 24px; }
+.memberkin-muted { color: #646970; }
+.memberkin-report-filters { margin: 12px 0; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.memberkin-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; margin: 16px 0; }
+.memberkin-card { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; padding: 12px 14px; }
+.memberkin-card__label { display: block; color: #50575e; font-size: 12px; margin-bottom: 4px; }
+.memberkin-card__value { font-size: 20px; line-height: 1.3; color: #1d2327; }
+.memberkin-cards--compact { grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 0 0 8px; }
+.memberkin-cards--compact .memberkin-card__value { font-size: 16px; }
+.memberkin-chart-wrap { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; padding: 8px; margin-bottom: 16px; }
+.memberkin-chart { display: block; width: 100%; height: 240px; }
+.memberkin-chart__grid { stroke: #dcdcde; stroke-width: 1; }
+.memberkin-chart__axis { fill: #50575e; font-size: 11px; }
+.memberkin-chart__bar { fill: #2271b1; }
+.memberkin-chart__bar.is-negative { fill: #d63638; }
+.memberkin-chart__line { stroke: #2271b1; stroke-width: 2; }
+.memberkin-chart__dot { fill: #2271b1; }
+.memberkin-report-table .num { text-align: end; }
+.memberkin-import-errors { max-height: 240px; overflow: auto; }

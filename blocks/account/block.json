@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/account",
+	"title": "Membership account",
+	"category": "memberkin",
+	"icon": "id-alt",
+	"description": "The member's account: memberships, subscriptions, payments and invoices, plus team and gift sections.",
+	"keywords": [
+		"my account",
+		"dashboard",
+		"subscription"
+	],
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

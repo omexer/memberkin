@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/confirmation",
+	"title": "Membership confirmation",
+	"category": "memberkin",
+	"icon": "yes-alt",
+	"description": "Thank-you page shown after checkout.",
+	"keywords": [
+		"thank you",
+		"order"
+	],
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

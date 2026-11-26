@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/login",
+	"title": "Membership login",
+	"category": "memberkin",
+	"icon": "lock",
+	"description": "Login form with lost-password link.",
+	"keywords": [
+		"sign in",
+		"log in"
+	],
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

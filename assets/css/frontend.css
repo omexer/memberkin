@@ -1,0 +1,57 @@
+/* Memberkin front end. Neutral styles that inherit the theme's fonts and colours. */
+.memberkin { --memberkin-accent: currentColor; --memberkin-border: rgba(0,0,0,.15); --memberkin-muted: rgba(0,0,0,.6); --memberkin-error: #b32d2e; --memberkin-success: #1a7f37; }
+.memberkin .screen-reader-text { border: 0; clip: rect(1px,1px,1px,1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; word-wrap: normal !important; }
+.memberkin-section { margin: 0 0 2em; }
+.memberkin-field { margin: 0 0 1em; }
+.memberkin-field label { display: block; font-weight: 600; margin-bottom: .25em; }
+.memberkin-field--checkbox label { font-weight: normal; }
+.memberkin-field input[type="text"], .memberkin-field input[type="email"], .memberkin-field input[type="password"], .memberkin-field select { width: 100%; max-width: 32em; box-sizing: border-box; }
+.memberkin-row { display: flex; flex-wrap: wrap; gap: 0 1em; }
+.memberkin-row > .memberkin-field { flex: 1 1 14em; }
+.memberkin-required { color: var(--memberkin-error); }
+.memberkin-field-error { color: var(--memberkin-error); margin: .25em 0 0; font-size: .9em; }
+.memberkin-field input[type="url"], .memberkin-field input[type="tel"], .memberkin-field input[type="number"], .memberkin-field input[type="date"], .memberkin-field textarea { width: 100%; max-width: 32em; box-sizing: border-box; }
+.memberkin-field fieldset { border: 0; margin: 0; padding: 0; }
+.memberkin-field .memberkin-field-label { display: block; font-weight: 600; margin-bottom: .25em; }
+.memberkin-field label.memberkin-choice { display: inline-flex; align-items: center; gap: .35em; font-weight: normal; margin: 0 1em .25em 0; }
+.memberkin-field-description { margin: .25em 0 0; font-size: .9em; opacity: .8; }
+.memberkin-field-group { margin: 1.5em 0 .5em; font-size: 1.05em; }
+.memberkin-field-file { margin: .25em 0 0; font-size: .9em; }
+.memberkin-field[hidden] { display: none; }
+[aria-invalid="true"] { border-color: var(--memberkin-error) !important; }
+.memberkin-errors, .memberkin-success, .memberkin-notice { border-inline-start: 4px solid var(--memberkin-border); padding: .5em 1em; margin: 0 0 1.5em; }
+.memberkin-errors { border-color: var(--memberkin-error); }
+.memberkin-success { border-color: var(--memberkin-success); }
+.memberkin-hp { position: absolute !important; inset-inline-start: -9999px !important; }
+.memberkin-summary { width: 100%; border-collapse: collapse; margin: 1em 0; }
+.memberkin-summary th, .memberkin-summary td { padding: .4em 0; border-bottom: 1px solid var(--memberkin-border); text-align: start; }
+.memberkin-summary td { text-align: end; white-space: nowrap; }
+.memberkin-summary__total th, .memberkin-summary__total td { border-bottom: 0; font-size: 1.1em; }
+.memberkin-summary__recurring { font-size: .95em; color: var(--memberkin-muted); }
+.memberkin-summary-wrap.is-loading { opacity: .5; }
+.memberkin-coupon { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .5em; }
+.memberkin-coupon label { width: 100%; }
+.memberkin-gateway { border: 1px solid var(--memberkin-border); padding: .75em 1em; margin-bottom: .5em; border-radius: 4px; }
+.memberkin-gateway__fields:empty { display: none; }
+.memberkin-button { display: inline-block; cursor: pointer; text-decoration: none; }
+.memberkin-link-button { background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; color: inherit; }
+.memberkin-inline-form { display: inline-block; margin: 0 .5em .5em 0; }
+.memberkin-levels__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); gap: 1.5em; }
+.memberkin-level { border: 1px solid var(--memberkin-border); border-radius: 6px; padding: 1.5em; display: flex; flex-direction: column; }
+.memberkin-level--highlight { border-width: 2px; border-color: var(--memberkin-accent); }
+.memberkin-level__price { font-size: 1.15em; font-weight: 600; }
+.memberkin-level__benefits { margin: 0 0 1.5em 1.2em; }
+.memberkin-level .memberkin-button { margin-top: auto; text-align: center; }
+.memberkin-table { width: 100%; border-collapse: collapse; }
+.memberkin-table th, .memberkin-table td { text-align: start; padding-block: .5em; padding-inline: 0 .5em; border-bottom: 1px solid var(--memberkin-border); vertical-align: top; }
+.memberkin-subscription { border: 1px solid var(--memberkin-border); border-radius: 6px; padding: 1em 1.25em; margin-bottom: 1em; }
+.memberkin-subscription h3 { margin-top: 0; }
+.memberkin-muted { color: var(--memberkin-muted); }
+@media (prefers-reduced-motion: no-preference) { .memberkin-summary-wrap { transition: opacity .15s; } }
+.memberkin-upcoming-list { list-style: none; margin: 0; padding: 0; }
+.memberkin-upcoming-list li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25em 1em; padding: .5em 0; border-block-end: 1px solid var(--memberkin-border); }
+.memberkin-upcoming-date { color: var(--memberkin-muted); font-size: .9em; }
+.memberkin-level-card { margin: 0 0 1em; }
+.memberkin-level-card__name, .memberkin-level-card__price { margin: 0 0 .5em; }
+.memberkin-members-content-editor { border: 1px dashed var(--memberkin-border, rgba(0,0,0,.25)); padding: .75em 1em; }
+.memberkin-members-content-editor__label { font-size: 12px; margin: 0 0 .5em; opacity: .75; }

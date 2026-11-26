@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/checkout",
+	"title": "Membership checkout",
+	"category": "memberkin",
+	"icon": "cart",
+	"description": "The checkout form (the level comes from the link, e.g. ?level=gold).",
+	"keywords": [
+		"signup",
+		"register",
+		"payment"
+	],
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}

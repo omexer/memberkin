@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "memberkin/profile",
+	"title": "Edit profile",
+	"category": "memberkin",
+	"icon": "admin-users",
+	"description": "Form where members change their name, email, password and profile fields.",
+	"keywords": [
+		"account",
+		"password"
+	],
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"textdomain": "memberkin",
+	"editorScript": "memberkin-blocks",
+	"style": "memberkin-frontend"
+}
